@@ -183,6 +183,14 @@ svg{
     svg{
         display: none;
     }
+    .over-card{
+        /* top:-80; */
+        width: 45%;
+        padding:20px 10px;
+        border-radius: 7px;
+        left:100px;
+        bottom:-150px;
+    }
     
 }
 
