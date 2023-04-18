@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- linking stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/script.js"></script>
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+</head>
+<body>
+
+  <!-- 
+
+  185 GB Left
+  
+  0 GB
+  1000 GB -->
+  <main>
+    <div class="container">
+      <div class="card1">
+        <div class="logo">
+        <img src="images/logo.svg" alt="logo">
+        </div>
+        <div class="content">
+          <img class="content-image" src="images/icon-document.svg" alt="document">
+          <img class="content-image" src="images/icon-folder.svg" alt="folder">
+          <img class="content-image" src="images/icon-upload.svg" alt="upload">
+        </div>
+      </div>
+      <div class="card2">
+        <div class="box">
+          <h1 class="over-card">185&nbsp;<span class="gb-left">GB LEFT</span>
+          </h1>
+          <svg width="40" height="40" viewBox="-150 -150 400 400">
+            <polygon points="0 0, 200 0, 200 200" fill="white"/>
+        </svg>
+        </div>
+        <div class="gb-scroll">
+          <p>You’ve used <span class="gb">815 GB</span> of your storage</p>
+          <div class="storage-bar round-corner">
+            <div class="storage__used round-corner"></div>
+          </div>
+          <div class="description">
+            <span class="min-gb">0 GB</span>
+          <span class="max-gb">1000 GB</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+</body>
+</html>
